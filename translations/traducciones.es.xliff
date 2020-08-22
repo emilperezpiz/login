@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>translations</source>
+<target>Traducciones</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>translation</source>
+<target>Traducción</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>key</source>
+<target>Llave</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>type</source>
+<target>Tipo</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>identifier</source>
+<target>Identificador</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>active</source>
+<target>Activado</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>generate</source>
+<target>Generar</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>close</source>
+<target>Cerrar</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>language</source>
+<target>Idioma</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>directory.info</source>
+<target>Ingrese el Directorio Físico</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>generate.translation</source>
+<target>Generador de Traducciones</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>spanish</source>
+<target>Español</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>english</source>
+<target>Inglés</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>portuguese</source>
+<target>Portugués</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>translate.message.success_1</source>
+<target>La Traducción se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>translate.message.success_2</source>
+<target>La Traducción se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>translate.spanish</source>
+<target>Traducción Español</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>translate.portuguese</source>
+<target>Traducción Portugués</target>
+</trans-unit>
+
+<trans-unit id="19">
+<source>translate.english</source>
+<target>Traducción Inglés</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

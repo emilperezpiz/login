@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>ubication</source>
+<target>Ubicación</target>
+</trans-unit>
+
+<!-- BEGIN STEP -->
+<trans-unit id="2">
+<source>country</source>
+<target>Países</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>ubication.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>ubication.abbreviation</source>
+<target>Abreviatura</target>
+</trans-unit>
+<!-- END STEP -->
+
+<trans-unit id="5">
+<source>ubication.locked</source>
+<target>Bloqueado</target>
+</trans-unit>
+<!-- END STEP -->
+
+<!-- BEGIN DETAILS -->
+<trans-unit id="6">
+<source>ubication.search.placeholder</source>
+<target>Buscar por el nombre</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>step.account.password_1</source>
+<target>Contraseña</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>country_singular</source>
+<target>País</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>step.account.active</source>
+<target>Activo</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>step.account.locked</source>
+<target>Bloqueado</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>step.profile.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>country.message.success_1</source>
+<target>El país se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>country.message.success_2</source>
+<target>El país se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>state</source>
+<target>Estados</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>state.message.success_1</source>
+<target>El estado se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>state.message.success_2</source>
+<target>El estado se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>city.message.success_1</source>
+<target>La ciudad se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>city.message.success_2</source>
+<target>La ciudad se ha actualizado correctamente</target>
+</trans-unit>
+
+
+<trans-unit id="20">
+<source>city</source>
+<target>Ciudades</target>
+</trans-unit>
+
+<trans-unit id="21">
+<source>city_singular</source>
+<target>Ciudad</target>
+</trans-unit>
+
+<trans-unit id="22">
+<source>state_singular</source>
+<target>Estado</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>step.account.active_2</source>
+<target>activado</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>step.account.locked_2</source>
+<target>bloqueado</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

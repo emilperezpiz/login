@@ -1,0 +1,49 @@
+/*$em = $this->getDoctrine()->getManager();
+        
+        //para proximamente obtener la ruta publica del proyecto
+        $package = new Package(new EmptyVersionStrategy());
+        $file = $package->getUrl("import/tabela_integrada.xlsx");
+
+        $reader = \PhpOffice\PhpSpreadsheet\IOFactory::createReader('Xlsx');
+        $reader->setReadDataOnly(TRUE);
+
+        $objPHPExcel = $reader->load($file);
+        $sheet = $objPHPExcel->getSheet(0);
+        $highestRow = $sheet->getHighestRow();
+        $highestColumn = $sheet->getHighestColumn();
+        
+
+        $country = new \App\Entity\Country();
+        $country->setName("Brasil");
+        $country->setAbbreviation("br");
+        $em->persist($country);
+        $em->flush($country);
+
+        for ($row = 2; $row <= $highestRow; $row++) {
+
+            $issetState = $em->getRepository("App:City")->findOneBy(array(
+                "name" => trim($sheet->getCell("J" . $row)->getValue())
+            ));
+            
+            if (!$issetState) {
+                
+                $state = new \App\Entity\City();
+                $state->setCountry($country);
+                $state->setName(trim($sheet->getCell("J" . $row)->getValue()));
+                $em->persist($state);
+                $em->flush($state);      
+            }
+
+            $issetCity = $em->getRepository("App:State")->findOneBy(array(
+                "name" => trim($sheet->getCell("G" . $row)->getValue())
+            ));
+
+            if (!$issetCity) {
+
+                $city = new \App\Entity\State();
+                $city->setName(trim($sheet->getCell("G" . $row)->getValue()));
+                $city->setCity($state);
+                $em->persist($city);
+                $em->flush($city);
+            }
+        }*/

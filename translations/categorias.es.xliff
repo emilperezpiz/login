@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>category.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>category.name_1</source>
+<target>Categorías</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>category.name_singular</source>
+<target>Categoría</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>category.message.success_1</source>
+<target>La categoría del producto se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>category.action.search.placeholder</source>
+<target>Buscar por el nombre</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>category.message.success_2</source>
+<target>La categoría del producto se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>category.message.success_3</source>
+<target>La categoría del producto se ha eliminado correctamente</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>category.types_exercises</source>
+<target>Tipos de Ejercicios</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

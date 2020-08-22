@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>links</source>
+<target>Enlaces</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>title</source>
+<target>Título</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>link.message.success_1</source>
+<target>El enlace se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>icon</source>
+<target>Ícono</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>uri</source>
+<target>URI</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>group</source>
+<target>Grupo</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>fatherLink</source>
+<target>Enlace Padre</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>description</source>
+<target>Descripción</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>generate.link</source>
+<target>Generador de Enlaces</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>link.message.success_2</source>
+<target>El enlace se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>order</source>
+<target>Orden</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>objectives</source>
+<target>Objetivos</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

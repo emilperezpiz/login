@@ -1,0 +1,7 @@
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+    prefix:
+        pt: '/pt' # don't prefix URLs for English, the default locale
+        es: ''
+        en: '/en'

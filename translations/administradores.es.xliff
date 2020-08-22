@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>user.admin</source>
+<target>Administrador</target>
+</trans-unit>
+
+<!-- BEGIN STEP -->
+<trans-unit id="2">
+<source>step.account</source>
+<target>Cuenta</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>step.profile</source>
+<target>Perfil</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>step.permiso</source>
+<target>Permisos</target>
+</trans-unit>
+<!-- END STEP -->
+
+<trans-unit id="5">
+<source>step.confirm</source>
+<target>Confirmación</target>
+</trans-unit>
+<!-- END STEP -->
+
+<!-- BEGIN DETAILS -->
+<trans-unit id="6">
+<source>step.account.email</source>
+<target>Correo Electrónico</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>step.account.password_1</source>
+<target>Contraseña</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>step.account.password_2</source>
+<target>Confirma la Contraseña</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>step.account.active</source>
+<target>Activo</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>step.account.locked</source>
+<target>Bloqueado</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>step.profile.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>step.profile.surname</source>
+<target>Apellidos</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>step.profile.gender</source>
+<target>Género</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>step.profile.gender_1</source>
+<target>Femenino</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>step.profile.gender_2</source>
+<target>Masculino</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>step.profile.address</source>
+<target>Dirección</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>step.profile.phone</source>
+<target>Teléfono</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>step.profile.image</source>
+<target>Seleccionar Imagotipo</target>
+</trans-unit>
+<!-- END DETAILS -->
+
+<trans-unit id="20">
+<source>admin.message.success_1</source>
+<target>El administrador se ha guardado correctamente</target>
+</trans-unit>
+
+<trans-unit id="21">
+<source>admin.message.success_2</source>
+<target>El administrador se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="22">
+<source>action.search.placeholder</source>
+<target>Buscar por el usuario, nombre o los apellidos</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>action.validate_1</source>
+<target>El correo ya está en uso, cambielo por favor</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>status.inactive</source>
+<target>Inactivo</target>
+</trans-unit>
+
+<trans-unit id="25">
+<source>step.account.contact_module</source>
+<target>Módulo de Contactos</target>
+</trans-unit>
+
+<trans-unit id="26">
+<source>step.account.monthly_gym_cost</source>
+<target>Costo del Gimnasio Mensual (Patrón)</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

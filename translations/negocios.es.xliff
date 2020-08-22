@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="0">
+                <source>business</source>
+                <target>Negocios</target>
+            </trans-unit>
+            
+            <trans-unit id="1">
+                <source>action.search.by</source>
+                <target>Buscar por</target>
+            </trans-unit> 
+
+            <trans-unit id="2">
+                <source>action.search.placeholder</source>
+                <target>nombre</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>business.information.general</source>
+                <target>General</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>business.name</source>
+                <target>Nombre</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>business.description</source>
+                <target>Descripción</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>business.address</source>
+                <target>Dirección</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>business.address.help</source>
+                <target>Si el negocio está presente en más de una ubicación, inserta solo una dirección, luego vuelve a registrar el negocio para las otras ubicaciones</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>business.country</source>
+                <target>País</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>business.city</source>
+                <target>Ciudad</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>business.state</source>
+                <target>Estado</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>business.information.contact</source>
+                <target>Contacto</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>business.email</source>
+                <target>Correo Electrónico</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>business.phone</source>
+                <target>Teléfono</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>business.property</source>
+                <target>Propietario</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>business.social.link</source>
+                <target>Redes Sociales</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>business.web.site</source>
+                <target>Sitio Web</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>business.img</source>
+                <target>Entidad</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+            <source>business.message.success_1</source>
+            <target>El negocio se ha guardado correctamente</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                 <source>business.message.success_2</source>
+                 <target>El negocio se ha actualizado correctamente</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                   <source>business.information.config</source>
+                   <target>Configuración</target>
+             </trans-unit>
+
+             <trans-unit id="21">
+                   <source>business.cep</source>
+                   <target>CEP</target>
+             </trans-unit>
+
+             <!-- BEGIN STEP -->
+<trans-unit id="22">
+<source>step.info</source>
+<target>Información</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>step.others</source>
+<target>Otros</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>step.contact</source>
+<target>Contactos</target>
+</trans-unit>
+<!-- END STEP -->
+
+<trans-unit id="25">
+<source>business.information.product</source>
+<target>Productos</target>
+</trans-unit>
+
+            <trans-unit id="26">
+                <source>business.category</source>
+                <target>Categoría</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>business.images</source>
+                <target>Otras Imágenes</target>
+            </trans-unit>
+
+            <trans-unit id="28">
+                <source>business.images_info</source>
+                <target>Click para añadir Imágenes</target>
+            </trans-unit>
+
+            <trans-unit id="29">
+                <source>business.complement</source>
+                <target>Complemento</target>
+            </trans-unit>
+
+            <trans-unit id="30">
+                <source>business.year</source>
+                <target>Año de Inaguración</target>
+            </trans-unit>
+
+            <trans-unit id="31">
+                <source>business.main</source>
+                <target>Principal</target>
+            </trans-unit>
+
+            <trans-unit id="32">
+                <source>business.cnpj</source>
+                <target>Cnpj</target>
+            </trans-unit>
+
+            <trans-unit id="33">
+<source>business.information.report</source>
+<target>Reportes</target>
+</trans-unit>
+
+<trans-unit id="34">
+                <source>business.id</source>
+                <target>Identificador</target>
+            </trans-unit>
+
+            <trans-unit id="35">
+<source>business.information.exercises</source>
+<target>Ejercicios</target>
+</trans-unit>
+
+        </body>
+    </file>
+</xliff>

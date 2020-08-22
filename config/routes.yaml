@@ -1,0 +1,30 @@
+################################SECURITY#####################
+
+#login:
+#    path: /{_locale}/login
+#    path: /login
+#    controller: App\Controller\SecurityController::login
+
+check:
+    path: /check
+
+logout:
+    path: /logout
+
+#api_login:
+#    path: /api/login
+#    controller: App\Controller\SecurityController::login
+
+api_check:
+    path: /api/check    
+
+###################################BACKEND###################
+
+#backend_homepage:
+#    path: /{_locale}/admin/
+#    #path: /admin/
+#    controller: App\Controller\Backend\IndexController::index
+#    requirements:
+#        _locale: pt|es|en
+
+

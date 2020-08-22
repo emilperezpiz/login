@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>table.info</source>
+<target>Mesas</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>table.message.success_1</source>
+<target>La mesa se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>table.name</source>
+<target>Código/Identificador</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>table.message.success_2</source>
+<target>La mesa se ha actualizado corectamente</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>table.message.success_3</source>
+<target>La mesa se ha eliminado correctamente</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

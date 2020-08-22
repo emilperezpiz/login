@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>product.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>product.description</source>
+<target>Descripción</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>product.price</source>
+<target>Precio</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>product.parceled</source>
+<target>Parcelas</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>product.images</source>
+<target>Imágenes</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>product.message.success_1</source>
+<target>El producto se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>action.search.placeholder</source>
+<target>Buscar por el nombre</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>product.active</source>
+<target>Activo</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>product.image</source>
+<target>Imágen</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>product.image_info</source>
+<target>Click para añadir la Imágen</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>product.youtube</source>
+<target>URL de Youtube</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>product.message.success_2</source>
+<target>El producto se ha actualizado correctamente</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

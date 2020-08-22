@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>objectivePhysicalEndorsement.objectives</source>
+<target>Objetivos</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>objectivePhysicalEndorsement.yes</source>
+<target>Si</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>objectivePhysicalEndorsement.no</source>
+<target>No</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>objectivePhysicalEndorsement.title</source>
+<target>Título</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>objectivePhysicalEndorsement.title_es</source>
+<target>Título Español</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>objectivePhysicalEndorsement.title_en</source>
+<target>Título Inglés</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>objectivePhysicalEndorsement.title_pt</source>
+<target>Título Portugués</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>objectivePhysicalEndorsement.message.success_1</source>
+<target>El objetivo se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>objectivePhysicalEndorsement.message.success_2</source>
+<target>El objetivo se ha actualizado corectamente</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>objectivePhysicalEndorsement.message.success_3</source>
+<target>El objetivo se ha eliminado correctamente</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>objectivePhysicalEndorsement.actived</source>
+<target>Activado</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

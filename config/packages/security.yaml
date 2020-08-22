@@ -1,0 +1,80 @@
+security:
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        chain_provider:
+            chain:
+                providers: [memoria, usuarios]
+        memoria:
+            memory:
+                users:
+                    security: { password: Eti36Ru/pWG6WfoIPiDFUBxUuyvgMA4L8+LLuGbGyqV9ATuT9brCWPchBqX5vFTF+DgntacecW+sSGD+GZts2A==, roles: ROLE_ADMIN }
+                    #1234
+                    #security: { password: 123, roles: ROLE_ADMIN }
+        usuarios:
+            entity:
+                class: App\Entity\User
+                property: userName
+    encoders:
+         Symfony\Component\Security\Core\User\User: { algorithm: sha512, iterations: 5000 }
+         #Symfony\Component\Security\Core\User\User: plaintext
+         App\Entity\User:
+             algorithm: bcrypt
+         #App\Document\User:
+         #    algorithm: bcrypt    
+    firewalls:
+        #dev:
+            #pattern: ^/(_(profiler|wdt)|css|images|js)/
+            #security: false
+        login:
+            pattern: ^/api/login
+            stateless: true
+            anonymous: true
+            provider: usuarios
+            json_login:
+                check_path: api_check
+                success_handler: lexik_jwt_authentication.handler.authentication_success
+                failure_handler: lexik_jwt_authentication.handler.authentication_failure
+        
+        api:
+            pattern:   ^/api
+            stateless: true
+            provider: usuarios
+            guard:
+                authenticators:
+                    - lexik_jwt_authentication.jwt_token_authenticator
+
+        main:
+            anonymous: true
+            pattern: ^/*
+            #provider: memoria
+            remember_me:
+                secret: '%kernel.secret%'
+                lifetime: 604800 # 1 week in seconds
+                path: /login
+                #always_remember_me: true
+            form_login:
+                login_path: login
+                check_path: login
+                provider: usuarios
+                default_target_path: backend_homepage
+                always_use_default_target_path: true
+                csrf_token_generator: security.csrf.token_manager
+                failure_path: login
+
+            logout:
+                path: /logout
+                target: /
+
+            # activate different ways to authenticate
+
+            # http_basic: true
+            # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+    access_control:
+        # - { path: ^/admin, roles: ROLE_ADMIN }
+        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/api/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/(es|en)/admin/*, roles: IS_AUTHENTICATED_FULLY }
+    role_hierarchy:
+        ROLE_ADMIN: [ROLE_ADMIN_LIST,ROLE_ADMIN_CREATE,ROLE_ADMIN_SHOW,ROLE_ADMIN_EDIT,ROLE_ADMIN_DELETE,ROLE_USER_PROPERTY_LIST,ROLE_USER_PROPERTY_CREATE,ROLE_USER_PROPERTY_SHOW,ROLE_USER_PROPERTY_EDIT,ROLE_USER_PROPERTY_DELETE,ROLE_LOCATION_LIST,ROLE_LOCATION_CREATE,ROLE_LOCATION_EDIT,ROLE_LOCATION_SHOW,ROLE_LOCATION_DELETE,ROLE_BUSINESS_LIST,ROLE_BUSINESS_CREATE,ROLE_BUSINESS_EDIT,ROLE_BUSINESS_SHOW,ROLE_BUSINESS_DELETE, ROLE_PRODUCT_CREATE, ROLE_PRODUCT_EDIT, ROLE_PRODUCT_SHOW, ROLE_PRODUCT_LIST, ROLE_PRODUCT_DELETE, ROLE_SETTING, ROLE_GYM_CLIENT]

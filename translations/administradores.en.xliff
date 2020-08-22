@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+
+            <trans-unit id="1">
+                <source>user.admin</source>
+                <target>Administrator</target>
+            </trans-unit>
+
+            <!-- BEGIN STEP -->
+            <trans-unit id="2">
+                <source>step.account</source>
+                <target>Account</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>step.profile</source>
+                <target>Profile</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>step.permiso</source>
+                <target>Permissions</target>
+            </trans-unit>
+            <!-- END STEP -->
+
+            <trans-unit id="5">
+                <source>step.confirm</source>
+                <target>Confirm</target>
+            </trans-unit>
+            <!-- END STEP -->
+
+            <!-- BEGIN DETAILS -->
+            <trans-unit id="6">
+                <source>step.account.email</source>
+                <target>Email</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>step.account.password_1</source>
+                <target>Password</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>step.account.password_2</source>
+                <target>Confirm Password</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>step.account.active</source>
+                <target>Active</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>step.account.locked</source>
+                <target>Lock</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>step.profile.name</source>
+                <target>Name</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>step.profile.surname</source>
+                <target>Surname</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>step.profile.gender</source>
+                <target>Gender</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>step.profile.gender_1</source>
+                <target>Female</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>step.profile.gender_2</source>
+                <target>Male</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>step.profile.address</source>
+                <target>Address</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>step.profile.phone</source>
+                <target>Phone</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>step.profile.image</source>
+                <target>Select the Image</target>
+            </trans-unit>
+            <!-- END DETAILS -->
+
+            <trans-unit id="20">
+                <source>admin.message.success_1</source>
+                <target>El administrador se ha guardado correctamente</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>admin.message.success_2</source>
+                <target>El administrador se ha actualizado correctamente</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>action.search.placeholder</source>
+                <target>Search for the username</target>
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>action.validate_1</source>
+                <target>El correo ya está en uso, cambielo por favor</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

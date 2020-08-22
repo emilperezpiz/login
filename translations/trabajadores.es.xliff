@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+<trans-unit id="1">
+<source>worker.info</source>
+<target>Trabajadores</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>worker.message.success_1</source>
+<target>El trabajador se ha creado correctamente</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>worker.name</source>
+<target>Nombre</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>worker.surname</source>
+<target>Apellidos</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>worker.email</source>
+<target>Correo Electrónico</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>worker.phone</source>
+<target>Teléfono</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>worker.address</source>
+<target>Dirección</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>worker.active</source>
+<target>Activado</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>worker.permission</source>
+<target>Permisos</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>worker.dependent</source>
+<target>Dependientes</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>worker.kitchen</source>
+<target>Cocineros</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>worker.admin</source>
+<target>Administradores</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>worker.accountant</source>
+<target>Contadores</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>worker.teacher</source>
+<target>Profesores</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>worker.secretary</source>
+<target>Secretario/a</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>worker.message.success_2</source>
+<target>El trabajador se ha actualizado correctamente</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>worker.cpf</source>
+<target>CPF</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>worker.birthday</source>
+<target>Fecha de Nacimiento</target>
+</trans-unit>
+
+</body>
+</file>
+</xliff>

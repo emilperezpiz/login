@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" datatype="plaintext" original="file.ext">
+        <body>
+
+        <!-- BEGIN STEP -->
+        <trans-unit id="2">
+            <source>action.search.placeholder</source>
+            <target>Buscar por el usuario, nombre o los apellidos</target>
+        </trans-unit>
+
+        <trans-unit id="3">
+        <source>admin.message.success_1</source>
+        <target>Su cuenta se está creando, le hemos enviado un correo, confirme su identidad siguiendo los pasos que en este le detallamos</target>
+        </trans-unit>
+
+        <trans-unit id="4">
+        <source>admin.message.success_2</source>
+        <target>El propietario se ha guardado correctamente</target>
+        </trans-unit>
+
+        <trans-unit id="5">
+        <source>admin.properties</source>
+        <target>Propietarios</target>
+        </trans-unit>
+
+        </body>
+    </file>
+</xliff>

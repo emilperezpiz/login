@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="es" datatype="plaintext" original="file.ext">
+<body>
+
+        <!-- BEGIN ASIDE -->
+        <trans-unit id="1">
+        <source>aside.home</source>
+        <target>Inicio</target>
+        </trans-unit>
+
+        <trans-unit id="2">
+        <source>aside.users</source>
+        <target>Usuarios</target>
+        </trans-unit>
+
+        <trans-unit id="3">
+        <source>aside.users.admin</source>
+        <target>Administradores</target>
+        </trans-unit>
+
+        <trans-unit id="4">
+        <source>aside.users.property</source>
+        <target>Propietarios</target>
+        </trans-unit>
+
+        <trans-unit id="5">
+        <source>aside.users.consumer</source>
+        <target>Consumidores</target>
+        </trans-unit>
+        <!-- END ASIDE -->
+
+        <!-- BEGIN ACCIONES -->
+        <trans-unit id="6">
+        <source>aside.action</source>
+        <target>Acciones</target>
+        </trans-unit>
+
+        <trans-unit id="7">
+        <source>aside.action.list</source>
+        <target>Listado</target>
+        </trans-unit>
+
+        <trans-unit id="8">
+        <source>aside.action.new</source>
+        <target>Nuevo</target>
+        </trans-unit>
+
+        <trans-unit id="9">
+        <source>action.show</source>
+        <target>Detalles</target>
+        </trans-unit>
+
+        <trans-unit id="10">
+        <source>action.edit</source>
+        <target>Modificar</target>
+        </trans-unit>
+
+        <trans-unit id="11">
+        <source>action.delete</source>
+        <target>Eliminar</target>
+        </trans-unit>
+
+        <trans-unit id="12">
+        <source>action.search</source>
+        <target>Buscar</target>
+        </trans-unit>
+
+        <trans-unit id="13">
+        <source>action.save</source>
+        <target>Guardar</target>
+        </trans-unit>
+
+        <trans-unit id="14">
+        <source>action.next</source>
+        <target>Siguiente</target>
+        </trans-unit>
+
+        <trans-unit id="15">
+        <source>action.prev</source>
+        <target>Anterior</target>
+        </trans-unit>
+
+        <!-- END ACCIONES -->
+
+        <trans-unit id="16">
+        <source>action.success</source>
+        <target>Éxito</target>
+        </trans-unit>
+
+        <trans-unit id="17">
+        <source>action.error</source>
+        <target>Error</target>
+        </trans-unit>
+
+        <trans-unit id="18">
+        <source>action.warning</source>
+        <target>Aviso</target>
+        </trans-unit>
+
+        <trans-unit id="19">
+        <source>action.yes</source>
+        <target>Si</target>
+        </trans-unit>
+
+        <trans-unit id="20">
+            <source>action.no</source>
+            <target>No</target>
+        </trans-unit>
+
+         <trans-unit id="21">
+             <source>aside.setting</source>
+             <target>Configuración</target>
+         </trans-unit>
+
+        <trans-unit id="22">
+                <source>no.found</source>
+                <target>Lo sentimos, no hay datos para mostrar en este momento</target>
+        </trans-unit>
+
+        <trans-unit id="23">
+                 <source>login</source>
+                 <target>Autenticación</target>
+        </trans-unit>
+
+        <trans-unit id="24">
+              <source>front.sign_up</source>
+              <target>Registra tú negocio</target>
+        </trans-unit>
+
+        <trans-unit id="25">
+              <source>front.slogan</source>
+              <target>Donde encuentras los mejores lugares para comer en Cuba. Si el lugar es bueno, lo encontrarás aquí.</target>
+        </trans-unit>
+
+        <trans-unit id="26">
+               <source>sign_up</source>
+               <target>Registro.</target>
+        </trans-unit>
+
+        <trans-unit id="27">
+               <source>no_found</source>
+               <target>La búsqueda no ha devuelto resultados</target>
+        </trans-unit>
+
+        <trans-unit id="28">
+               <source>login.text</source>
+               <target>Por favor, Autentíquese</target>
+        </trans-unit>
+
+        <trans-unit id="29">
+               <source>sign_up.action</source>
+               <target>Registrar</target>
+        </trans-unit>
+
+        <trans-unit id="30">
+               <source>termns.service</source>
+               <target>I accept the Terms of Service and Privacy Policy</target>
+        </trans-unit>
+
+        <trans-unit id="31">
+               <source>log_out</source>
+               <target>Cerrar Sesión</target>
+        </trans-unit>
+
+        <trans-unit id="32">
+               <source>my_profile</source>
+               <target>Mi Perfil</target>
+        </trans-unit>
+
+        <trans-unit id="33">
+<source>general.yes</source>
+<target>Si</target>
+</trans-unit>
+
+<trans-unit id="34">
+<source>general.no</source>
+<target>No</target>
+</trans-unit>
+
+<trans-unit id="35">
+        <source>action.drag</source>
+        <target>Arrastrar</target>
+        </trans-unit>
+
+<trans-unit id="36">
+        <source>action.download</source>
+        <target>Descargar</target>
+        </trans-unit>
+
+        <trans-unit id="37">
+                 <source>login.access</source>
+                 <target>Acceder</target>
+        </trans-unit>
+
+        <trans-unit id="38">
+                 <source>workposition.secretary</source>
+                 <target>Secretaria/o</target>
+        </trans-unit>
+
+        <trans-unit id="39">
+                 <source>workposition.teacher</source>
+                 <target>Profesor/a</target>
+        </trans-unit>
+
+</body>
+</file>
+</xliff>
